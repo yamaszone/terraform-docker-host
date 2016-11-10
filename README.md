@@ -1,5 +1,5 @@
 # Terraform-zie Docker Host
-Terraform-ize deploying a standalone Ubuntu 16.04 Docker host on AWS. Deploying a Ubuntu based Docker host can be [tedious](https://docs.docker.com/engine/installation/linux/ubuntulinux/) and errorprone. This repository aims to automate these manual steps for quick prototyping. The provisioning is kept very generic so that it can be easily extended for many common purposes.
+Terraform-ize deploying a standalone Ubuntu 16.04 Docker host on AWS. Deploying a Ubuntu based Docker host can be [tedious](https://docs.docker.com/engine/installation/linux/ubuntulinux/) and errorprone. This repository (extended from [example](https://github.com/hashicorp/terraform/tree/master/examples/aws-eip) in official Terraform) aims to automate these manual steps for quick prototyping. The provisioning is kept very generic so that it can be easily extended for many common purposes.
 
 ### Prerequsite
 1. Terraform is installed
